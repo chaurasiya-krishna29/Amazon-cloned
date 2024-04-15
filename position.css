@@ -1,0 +1,47 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color:  #62ca5f;;
+    color: black;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+}
+#box1
+{
+    z-index: -1;
+    position: static;
+    top: 50px;
+    bottom :50px;
+    /* hece it will not be applied in statinc case because stays fixed at the position */
+}
+#box2
+{
+    z-index: -2;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    /* hence the position is chaange due to using the relative tag */
+}
+#box3
+
+{
+/* position: absolute; */
+/* position relative to the closest position of the ansestors */
+position: sticky;
+/* it will stick at the position when it comes in the picture */
+z-index: -3;
+top: 0%;
+width: 100%;
+
+background-color: black;
+
+}
+#box4
+{
+    position: fixed;
+    bottom: 0;
+    width:100vw;
+    left: 0%;
+    z-index: 0;
+}

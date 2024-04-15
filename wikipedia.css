@@ -1,0 +1,60 @@
+body{
+    text-transform: capitalize;
+    /* text-align: center; */
+    text-shadow: 10%;
+    background-image: url("women.jpg");
+    background-size: cover;
+}
+h1
+{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    background-image: url("car\ gameing.jpg");
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color:  #62ca5f;;
+    color: black;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+}
+#box1
+{
+    position: fixed;
+    resize: both;
+    overflow: auto;
+    max-height: 200px;
+    top: 0;
+    z-index: 0;
+    background-image: url("car\ gameing.jpg");
+    background-size: cover;
+
+}
+#box2
+{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+    
+    background-image: url("human\ sitting.jpg");
+    background-size:contain;
+}
+#box3
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 1;
+    background-image: url("game\ view.jpg");
+    background-size: contain;
+
+}

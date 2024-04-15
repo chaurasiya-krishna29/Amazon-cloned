@@ -1,0 +1,106 @@
+h1{
+    font-size: 150px;
+    font-weight: 900;
+    background-color: darkslategray;
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 1s;
+
+
+}
+h1:hover
+{
+    font-size: 145px;
+    background-color: cornflowerblue;
+}
+h1:active
+{
+    background-color: chartreuse;
+}
+
+#star-six{
+   
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: all;
+    transition-duration: 2s;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    
+}
+#star-six:hover
+{
+     /* background-color: bisque;
+    color: coral; */
+     font-size: 20px; 
+     transform: scale(2);
+    transform: translate(50px); 
+    /* transform: skew(70deg) 2s infinite; */
+}
+#star-six:active
+{
+/* background-color: aquamarine; */
+/* color: blueviolet; */
+animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+        
+    }
+}
+#star-six {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+    position: relative;
+  }
+  #star-six:after {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid red;
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: -50px;
+  }
+  #box
+  {
+    height: 50px;
+    width: 50px;
+    /* background-color: brown; */
+    border-radius: 50%;
+    border: 10px solid #ccc;
+    border-top-color:rgb(98, 11, 67) ;
+    border-bottom-color: blueviolet;
+    border-right-color: darkgreen;
+    border-left-color: gold;
+  
+    position:absolute;
+    left: 200px;
+    animation: spin 1s linear infinite normal;
+    transform: all 2s ease-in;
+    
+  }
+  #box:hover
+  {
+    transform: translate(100px);
+    border-top-color:rgb(58, 24, 5) ;
+    animation-direction: alternate;
+  }

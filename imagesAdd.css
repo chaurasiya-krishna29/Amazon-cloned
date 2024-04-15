@@ -1,0 +1,34 @@
+body{
+    text-transform: capitalize;
+    background-image: url("car\ gameing.jpg");
+    background-size: cover;
+    background-repeat:  no-repeat; 
+}
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    color: black;
+    display: inline-block;
+    text-align: center;
+}
+#box1
+{
+background-image: url("car gameing.jpg");
+background-size: contain;
+}
+#box2
+{
+    background-image: url("human sitting.jpg");
+    background-size: contain;
+}
+#box3
+{
+    background-image: url("game view.jpg");
+    background-size: cover;
+}
+#box4
+{
+    background-image: url("women.jpg");
+    background-size: cover;
+}

@@ -1,0 +1,56 @@
+div{
+    height: 250px;
+    width: 250px;
+    background-color: chocolate;
+}
+h1{
+    /* to add image in the text */
+    font-size: 100px;
+    font-weight: 900;
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+      text-align: center;
+    background-image: url("car.jpg");
+    color: transparent;
+ 
+
+}
+#first
+{
+    /* To change the size */
+    resize: both;
+    overflow: auto;
+    /* for making the text in the center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+@media (max-width:300px) {
+    div
+    {
+        background-color: aqua;
+    }
+    
+}
+@media (min-width:300px) and (max-width:400px) {
+    div
+    {
+        background-color: rgb(78, 174, 9);
+    }
+    
+}
+@media (min-width:400px) and (max-width:600px) {
+    div
+    {
+        background-color: rgb(175, 40, 40);
+    }
+    
+}
+@media (min-width:600px) {
+    div
+    {
+        background-color: rgb(163, 21, 165);
+    }
+    
+}

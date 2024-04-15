@@ -1,0 +1,24 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+#main_heading
+{
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    color:#576979;
+    letter-spacing:-.5px;
+    line-height:48px;
+    font-size:32px;
+    font-weight: 900;
+    text-align: center;
+}
+#outer
+{
+   font-size: 25px;
+}
+#inner
+{
+    font-size: 10px;
+}
